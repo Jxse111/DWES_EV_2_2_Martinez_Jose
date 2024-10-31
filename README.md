@@ -1,7 +1,7 @@
-# Nombre del Proyecto
+# Lista de la Compra de productos
 
-Descripción breve del proyecto.
-
+ Se ha realizado un proyecto, el cuál realiza a través de un formulario la seleccion y el cálculo de una compra
+ de productos, una vez se muestra el total de la compra se debe pasar a dolares mediante el botón corrrespondiente.
 ## Problemas Identificados
 
 - **Incremento de precio de envío**: Se necesita corregir el incremento de precio del envío para pedidos provenientes de países que no sean España.
