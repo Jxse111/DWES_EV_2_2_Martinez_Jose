@@ -6,15 +6,15 @@ function sumaArticulos($articulos, $nombrePais) {
     $resultadoSuma = 0;
     foreach ($articulos as $articulo) {
         switch ($articulo) {
-            case "CableHdmi" : $precio = 6.79;
+            case "Cable HDM" : $precio = 6.79;
                 break;
-            case "CableRj45" : $precio = 69.00;
+            case "Cable rj45 cat6 bobina" : $precio = 69.00;
                 break;
-            case "ConectorRj45" : $precio = 12.09;
+            case "Conector rj45 100ud" : $precio = 12.09;
                 break;
-            case "Switch4p" : $precio = 19.99;
+            case "Switch 4 puertos" : $precio = 19.99;
                 break;
-            case "Switch8p" : $precio = 29.99;
+            case "Switch 8 puertos" : $precio = 29.99;
                 break;
         }
         $resultadoSuma += $precio;

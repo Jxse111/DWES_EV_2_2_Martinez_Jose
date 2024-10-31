@@ -44,27 +44,27 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                         <th>Precio</th>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Artículos[]" value="CableHdmi" <?php if (isset($articulosSinFiltrar) && in_array("CableHdmi", $articulosSinFiltrar)) echo 'checked'; ?>></td>
+                        <td><input type="checkbox" name="Artículos[]" value="Cable HDM" <?php if (isset($articulosSinFiltrar) && in_array("Cable HDM", $articulosSinFiltrar)) echo 'checked'; ?>></td>
                         <td>Cable HDMI</td>
                         <td>6.79€</td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Artículos[]" value="CableRj45" <?php if (isset($articulosSinFiltrar) && in_array("CableRj45", $articulosSinFiltrar)) echo 'checked'; ?>></td>
+                        <td><input type="checkbox" name="Artículos[]" value="Cable rj45 cat6 bobina" <?php if (isset($articulosSinFiltrar) && in_array("Cable rj45 cat6 bobina", $articulosSinFiltrar)) echo 'checked'; ?>></td>
                         <td>Cable rj45 cat6 bobina</td>
                         <td>69.00€</td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Artículos[]" value="ConectorRj45" <?php if (isset($articulosSinFiltrar) && in_array("ConectorRj45", $articulosSinFiltrar)) echo 'checked'; ?>></td>
+                        <td><input type="checkbox" name="Artículos[]" value="Conector rj45 100ud" <?php if (isset($articulosSinFiltrar) && in_array("Conector rj45 100ud", $articulosSinFiltrar)) echo 'checked'; ?>></td>
                         <td>Conector rj45 100ud</td>
                         <td>12.09€</td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Artículos[]" value="Switch4p" <?php if (isset($articulosSinFiltrar) && in_array("Switch4p", $articulosSinFiltrar)) echo 'checked'; ?>></td>
+                        <td><input type="checkbox" name="Artículos[]" value="Switch 4 puertos" <?php if (isset($articulosSinFiltrar) && in_array("Switch 4 puertos", $articulosSinFiltrar)) echo 'checked'; ?>></td>
                         <td>Switch 4 puertos</td>
                         <td>19.99€</td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Artículos[]" value="Switch8p" <?php if (isset($articulosSinFiltrar) && in_array("Switch8p", $articulosSinFiltrar)) echo 'checked'; ?>></td>
+                        <td><input type="checkbox" name="Artículos[]" value="Switch 8 puertos" <?php if (isset($articulosSinFiltrar) && in_array("Switch 8 puertos", $articulosSinFiltrar)) echo 'checked'; ?>></td>
                         <td>Switch 8 puertos</td>
                         <td>29.99€</td>
                     </tr>

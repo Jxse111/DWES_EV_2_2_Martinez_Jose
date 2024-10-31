@@ -1,3 +1,3 @@
 <?php
 
-$patronPais = "/^[España|Alemania|Portugal|Italia]$/";
+$patronPais = "/^(España|Alemania|Portugal|Italia)$/";

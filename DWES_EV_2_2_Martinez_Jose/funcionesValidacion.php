@@ -21,7 +21,7 @@ function validarPais($nombrePais) {
 
 // Funcion de validacion de articulos
 function validarProductos($articulos) {
-    $articulosValidos = ["CableHdmi", "CableRj45", "ConectorRj45", "Switch4p", "Switch8p"];
+    $articulosValidos = ["Cable HDM", "Cable rj45 cat6 bobina", "Conector rj45 100ud", "Switch 4 puertos", "Switch 8 puertos"];
     if (is_array($articulos)) {
         $resultado = array_intersect($articulos, $articulosValidos);
         return $resultado ? $resultado : false; // Retorna los artículos válidos o false si no hay
