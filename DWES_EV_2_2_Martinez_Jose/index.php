@@ -77,7 +77,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             <?php } else if ($conjuntoCampos) { ?>
                 <p>Lista de la compra realizada:</p>
                 <?php echo $listaArticulos; ?>
-                <p>Total a pagar :<?php echo sumaArticulos($articulos, $nombrePais) ?>€ </p><br><br>
+                <?php $total = sumaArticulos($articulos, $nombrePais); ?>
+                <label>Total a pagar: </label>
+                <input type="text" name="total" value="<?php echo $total . "€"; ?>">
                 <button type="submit" name="enviar">Pasar a dólares</button><br><br> <!-- Me falta realizar el paso a dólares -->
             <?php } ?>
         </form>
