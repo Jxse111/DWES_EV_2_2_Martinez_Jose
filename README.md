@@ -10,4 +10,4 @@ Descripción breve del proyecto.
 ## Soluciones
 
 - **Corrección del envío**: Se ha corregido el problema relacionado con el incremento del precio del envío.
-- **Conversión de moneda**: Se debe implementar la funcionalidad para convertir euros a dólares.
+- **Conversión de moneda**: En proceso...
